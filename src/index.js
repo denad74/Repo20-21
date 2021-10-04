@@ -85,7 +85,7 @@ const Keyboard = {
                    
                     keyElement.addEventListener("click", () => {
                         this._toogleCapsLock();
-                        keyElement.classList.toggle("keyboard-key-active", this.properties.capsLock);
+                        
                     });
                     
                 break; 
@@ -96,7 +96,7 @@ const Keyboard = {
                     keyElement.innerHTML = createHTMLtag("Shift");
                     keyElement.addEventListener("click", () => {
                         this._toogleCapsLock();
-                        keyElement.classList.toggle("keyboard-key-active", this.properties.capsLock);
+                       
                     });
                     
                 break; 
